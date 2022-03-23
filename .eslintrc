@@ -10,9 +10,7 @@
     "node": true,
     "jest": true
   },
-  "extends": [
-    "eslint:recommended"
-  ],
+  "extends": ["eslint:recommended"],
   "rules": {
     "no-console": "warn",
     "indent": [
@@ -22,31 +20,14 @@
         "SwitchCase": 1
       }
     ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "space-in-parens": [
-      "error"
-    ],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "space-in-parens": ["error"],
     "space-infix-ops": "error",
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "object-curly-spacing": ["error", "always"],
     "comma-spacing": "error",
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
-    "eol-last": [
-      "error",
-      "always"
-    ],
+    // "space-before-function-paren": ["error", "never"],
+    "eol-last": ["error", "always"],
     "keyword-spacing": [
       "error",
       {
@@ -74,21 +55,12 @@
         }
       }
     ],
-    "arrow-spacing": [
-      "error",
-      {
-        "before": true,
-        "after": true
-      }
-    ],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
     "array-bracket-spacing": "error",
     "prefer-const": "error",
     "no-var": "error",
     "rest-spread-spacing": "error",
     "prefer-arrow-callback": "error",
-    "object-shorthand": [
-      "error",
-      "always"
-    ]
+    "object-shorthand": ["error", "always"]
   }
 }
